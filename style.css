@@ -1,4 +1,4 @@
- *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: 0;
@@ -33,20 +33,6 @@ body{
     width: 400px;
     height: 700px;
     margin:30px 15px;
-}
-display:grid;
-<!-- Due to the two containers are in the same size we use repeat function and the fractional unit-->
-grid-template-rows: repeat(2, 1fr);
-.image-content{
-    height: 239px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius:0px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 0px;
-    background-image: url(./images/image-product-mobile.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .me{
     width: 300px;
@@ -143,6 +129,7 @@ grid-template-rows: repeat(2, 1fr);
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     background-image: url(./images/image-product-desktop.jpg);
+    background-size: cover;
 }
 .full-content {
        margin: 40px 30px;
